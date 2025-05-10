@@ -1,10 +1,10 @@
 
 <div>
-  <img src="images/iqrcode.png" width="200px"/>
+  <img src="Swagger.png" width="1000px"/>
 </div>
 <div>
-  <img src="images/iqrcode.png" width="200px"/>
+  <img src="Lista.png" width="1000px"/>
 </div>
 <div>
-  <img src="images/iqrcode.png" width="200px"/>
+  <img src="SqlServer.png" width="1000px"/>
 </div>

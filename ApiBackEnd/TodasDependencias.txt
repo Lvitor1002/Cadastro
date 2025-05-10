@@ -1,0 +1,30 @@
+
+
+1º -> Microsoft.EntityFrameworkCore.Design
+2º -> Microsoft.EntityFrameworkCore
+3º -> Microsoft.EntityFrameworkCore.Tools
+4º -> Microsoft.EntityFrameworkCore.SqlServer
+
+
+
+1ª Criar Models > [classe do Objeto]
+
+2ª Criar Data > [classe do Nome Banco de dados]
+
+2.2ª Criar Data > Map > [Mapeamento da entidade/tabela]
+
+3ª Criar Controllers > [Controlar as ações/actions do objeto]
+
+4ª Criar Repository > Interfaces > [Interface do repositório do objeto]
+
+4.4ª Criar Repository > [Repositório para o objeto]
+
+5ª Criar Injeção de dependência no [Program]
+
+6ª Configurar > appsettings.json
+
+7ª Rodar Comandos > 
+//Add-Migration InitialDB -Context DataContext
+//Update-Database -Context DataContext
+
+Obs..:  ID sempre aumentando é o correto e o esperado. O mesmo nunca se repete

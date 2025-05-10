@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "O8LpZvMnLWgk5G7ViAl2IKw9ej4Gzigz2IpeLU/kDSI=",
+  "Source": "ApiBackEnd",
+  "BasePath": "_content/ApiBackEnd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

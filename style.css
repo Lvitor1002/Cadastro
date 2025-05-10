@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(213, 169, 255),white, white, white);
+    background-repeat: no-repeat;
+
+}
+body i#fechar{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 1;
+    padding: 8px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+body i#fechar:active{
+    transform: scale(1.2);
+    color: purple;
+    transition-duration: 0s;
+}
+
+body i#fechar:hover{
+    box-shadow: 0px 0px 14px -4px black;
+    color: rgb(240, 70, 70);
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.controle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10%;
+    padding: 10px;
+}
+.controle a{
+    text-align: center;
+    width: 350px;
+    padding: 10px 20px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    box-shadow: 0px 0px 14px -4px black;
+    
+    transition: all 2s;
+}
+.controle a:active{
+    transform: scale(1.07);
+    color: blueviolet;
+    background-color: white; 
+    transition-duration: 0s;
+}
+
+/* Página de Cadastro de Categorias */
+
+.topo{
+    width: 100%;
+    height: 10%;
+    border-radius: 0 0 10px 10px;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 14px -4px black;
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    bottom: 90%;
+}
+.topo i{
+    box-shadow: 0px 0px 14px -4px black;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: #6501cf;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.topo i:hover{
+    color: #6501cf;
+
+    background-color: white;
+   
+    transition-duration: 0s;
+}
+.topo i:active{
+    transform: scale(1.07);
+    color: purple; 
+    border: .5px solid purple; 
+    transition-duration: 0s;
+}
+.topo h1{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.ocultar{
+    display: none!important;
+}
+.formulario{
+    margin-top: 40px;
+    max-width: 60%;
+    height: 500px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 779px #000000a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.formulario form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    width: 350px;
+    height: 80%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.controleEntradas{
+    width: 100%;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+small{
+    color: rgba(217, 179, 252, 0.877);
+}
+::placeholder{
+    color: black;
+    font-size: 17px;
+}
+.controleCheck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.controleCheck input{
+    transform: scale(1.5);
+}
+.controleCheck label#aceite{
+    color: rgba(233, 210, 255, 0.562);
+    font-weight: bold;
+    font-size: 17px;
+}
+.controleEntradas input:not([type="checkbox"]), 
+.controleEntradas select, 
+.controleEntradas button {
+    outline: none;
+    color: black;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -4px rgba(0, 0, 0, 0.767);
+    background-color: white;
+}
+
+button{
+    cursor: pointer;
+    transition: all 1s;
+}
+button:active{
+    color:white;
+    background-color: #b06cf8;
+    transform: scale(1.07);
+    transition-duration: 0s;
+}
+
+.campoTodasCategorias{
+    width: 65%;
+    min-width: 98%;
+    height: 60%;
+    border-radius: 20px;
+    padding: 20px;
+    
+    box-shadow: 0px 0px 14px -4px rgba(0, 0, 0, 0.404);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+.table {
+    border: 2px solid #cccccc;
+}
+.table tr i#editar {
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    right: 10px;
+    color: rgb(0, 153, 255);
+    transition: all 2s;
+}
+.table tr i#editar:active {
+    color: white;
+    transition-duration: 0s;
+}
+.table tr i {
+    font-size: 22px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    color: red;
+    transition: all 2s;
+}
+.table tr i:active {
+    color: white;
+    transition-duration: 0s;
+}
+
+.formularioEditar{
+    max-width: 60%;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 779px #0f001dee;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 23%;    
+    z-index: 1;
+
+}
+.formularioEditar form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    
+      
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.formularioEditar i {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.829);
+}
+
+body i#fecharEditar{
+    position: relative;
+    right: 42%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 29px;
+    cursor: pointer;
+    z-index: 2;
+    padding: 1px 8px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+body i#fecharEditar:active{
+    transform: scale(1.2);
+    color: purple;
+    transition-duration: 0s;
+}
+
+body i#fecharEditar:hover{
+    box-shadow: 0px 0px 14px -4px black;
+    color: rgb(255, 255, 255);
+    background-color: red;
+
+}
+@media screen and (max-width: 500px){
+    body i#fechar{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    body i#fecharEditar{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .topo h1{
+        font-size: 19px;
+    }
+    .controle{
+        flex-direction: column;
+        position: absolute;
+        left: 4%;
+        gap: 50px;
+    }
+    .formulario{
+        margin-top: 0!important;
+        max-width:98%;
+        height: 450px;
+    }
+    .formularioEditar{
+        margin-top: 0!important;
+        max-width:98%;
+        height: 100%;
+    }
+    .topoLista{
+            width: 100%;
+            height: 10%;
+            border-radius: 0 0 10px 10px;
+            background-color: blueviolet;
+            box-shadow: 0px 0px 14px -4px black;
+            position: relative;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            bottom: 15%;
+    }
+    .table{
+        font-size: 11px;
+    }
+    .table tr i {
+        font-size: 10px;
+    }
+    
+    
+}

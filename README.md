@@ -1,4 +1,4 @@
-<h1>Acesso ao front do sistema</h1>
+<h3>Acesso ao front do sistema</h3>
 <div>
   <img src="cr.png" width="100px"/>
 </div>

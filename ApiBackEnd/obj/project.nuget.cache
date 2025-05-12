@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jJHy6cyn9k=",
+  "dgSpecHash": "R+qkpY/w2Xg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luiz\\Desktop\\c#\\Projetos C#\\Projeto c# & js\\ApiBackEnd\\ApiBackEnd.csproj",
+  "projectFilePath": "C:\\Users\\Luiz\\Desktop\\Repositórios Locais\\PROJETOS\\Cadastro\\ApiBackEnd\\ApiBackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luiz\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Luiz\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

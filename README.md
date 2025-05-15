@@ -1,7 +1,3 @@
-<h3>Acesso ao front do sistema</h3>
-<div>
-  <img src="gif/cr.png" width="200px"/>
-</div>
 
 <div>__________________________________________________________________________________</div>
 

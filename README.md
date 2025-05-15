@@ -4,7 +4,8 @@
 </div>
 
 <div>__________________________________________________________________________________</div>
-![Demonstração do aplicativo](app.gif)
+
+![GIF de exemplo](gif/app.gif)
 
 <br>
 <br>

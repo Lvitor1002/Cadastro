@@ -1,6 +1,6 @@
 <h3>Acesso ao front do sistema</h3>
 <div>
-  <img src="gif/cr.png" width="100px"/>
+  <img src="gif/cr.png" width="200px"/>
 </div>
 
 <div>__________________________________________________________________________________</div>
@@ -19,12 +19,12 @@ Além disso, foi utilizado o Swagger UI, uma ferramenta que permite visualizar, 
 
 <h1>Swagger UI</h1>
 <div>
-  <img src="gif/Swagger.png" width="1000px"/>
+  <img src="gif/Swagger.png" width="900px"/>
 </div>
 
 <h1>Requisição Get, gerando a lista com todos os cadastros</h1>
 <div>
-  <img src="gif/Lista.png" width="1000px"/>
+  <img src="gif/Lista.png" width="900px"/>
 </div>
 
 <h1>Banco SQLServer implantado localmente</h1>

@@ -336,7 +336,7 @@ body i#fecharEditar:hover{
     .controle{
         flex-direction: column-reverse;
         position: absolute;
-        left: 4%;
+        left: 5%;
         height: 60%;
         gap: 15%;
         transition:ease-in-out 5s;

@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to bottom, rgb(213, 169, 255),white, white, white);
+    background: linear-gradient(to bottom, rgb(232, 208, 255),white,white, white, white);
     background-repeat: no-repeat;
 
 }
@@ -36,13 +36,35 @@ body i#fechar:hover{
     color: rgb(240, 70, 70);
     background-color: rgba(255, 255, 255, 0.432);
 }
+.controleLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.controleLink i{
+    font-size: 60px;
+    padding: 50px 0;
+    color: rgb(116, 0, 116);
+    transition: all 2s;
+}
+.controleLink i:hover{
+    transform: scale(1.09);
+    color: rgb(250, 87, 250);
+    transition-duration: 0s;
+}
+
 .controle{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 10%;
-    padding: 10px;
+    height: 30%;
+    padding: 20px 0;
+    border-radius: 30px;
+    background: linear-gradient(to top,rgb(242, 227, 255),rgb(255, 255, 255),white, white, white);
+    box-shadow:0px 0px 11px 0px rgba(0, 0, 0, 0.041);
 }
 .controle a{
     text-align: center;
@@ -312,10 +334,16 @@ body i#fecharEditar:hover{
         font-size: 19px;
     }
     .controle{
-        flex-direction: column;
+        flex-direction: column-reverse;
         position: absolute;
-        left: 4%;
-        gap: 50px;
+        left: 3%;
+        height: 60%;
+        gap: 15%;
+        transition:ease-in-out 5s;
+    }
+    .controleLink i{
+        font-size: 40px;
+        padding: 10px 0;
     }
     .formulario{
         margin-top: 0!important;
